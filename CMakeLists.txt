@@ -5,8 +5,6 @@ project(logger CXX)
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-include(cmake/CompilerOptions.cmake)
-
 # Create header-only library target (INTERFACE)
 add_library(${PROJECT_NAME} INTERFACE)
 
